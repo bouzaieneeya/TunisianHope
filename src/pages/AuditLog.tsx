@@ -14,11 +14,12 @@ export default function AuditLog() {
 
   const extra = useMemo(() => {
     const ts = new Date().toLocaleString();
-    if (failure === "S2_UNAUTHORIZED") return [{ id: "L-X1", timestamp: ts, user: "operator_nour", role: "Operator" as const, action: "Trigger referral", affectedId: "C-1042", scenario: "S2" as const, result: "Blocked" as const, blockReason: "Operator role cannot trigger referrals" }];
-    if (failure === "S3_UNAUTHORIZED") return [{ id: "L-X2", timestamp: ts, user: "operator_nour", role: "Operator" as const, action: "Send awareness action", affectedId: "Y-3001", scenario: "S3" as const, result: "Blocked" as const, blockReason: "Only counselors can send awareness actions" }];
-    if (failure === "S2_MALFORMED") return [{ id: "L-X3", timestamp: ts, user: "system", role: "Admin" as const, action: "Intake validation", affectedId: "C-1054", scenario: "S2" as const, result: "Blocked" as const, blockReason: "Malformed intake — required fields missing" }];
-    if (failure === "S3_ASSESSMENT_CONFLICT") return [{ id: "L-X4", timestamp: ts, user: "system", role: "Admin" as const, action: "Assessment ingest", affectedId: "Y-3007", scenario: "S3" as const, result: "Blocked" as const, blockReason: "Duplicate submission within 24h" }];
-    if (failure === "S2_MISSED_CASCADE") return [{ id: "L-X5", timestamp: ts, user: "system", role: "Admin" as const, action: "Auto-escalation cascade", affectedId: "C-1042,C-1048,C-1049", scenario: "S2" as const, result: "Success" as const }];
+    const mk = (o: Partial<typeof auditLog[number]> & { id: string }) => ({ blockReason: undefined, ...o }) as typeof auditLog[number];
+    if (failure === "S2_UNAUTHORIZED") return [mk({ id: "L-X1", timestamp: ts, user: "operator_nour", role: "Operator", action: "Trigger referral", affectedId: "C-1042", scenario: "S2", result: "Blocked", blockReason: "Operator role cannot trigger referrals" })];
+    if (failure === "S3_UNAUTHORIZED") return [mk({ id: "L-X2", timestamp: ts, user: "operator_nour", role: "Operator", action: "Send awareness action", affectedId: "Y-3001", scenario: "S3", result: "Blocked", blockReason: "Only counselors can send awareness actions" })];
+    if (failure === "S2_MALFORMED") return [mk({ id: "L-X3", timestamp: ts, user: "system", role: "Admin", action: "Intake validation", affectedId: "C-1054", scenario: "S2", result: "Blocked", blockReason: "Malformed intake — required fields missing" })];
+    if (failure === "S3_ASSESSMENT_CONFLICT") return [mk({ id: "L-X4", timestamp: ts, user: "system", role: "Admin", action: "Assessment ingest", affectedId: "Y-3007", scenario: "S3", result: "Blocked", blockReason: "Duplicate submission within 24h" })];
+    if (failure === "S2_MISSED_CASCADE") return [mk({ id: "L-X5", timestamp: ts, user: "system", role: "Admin", action: "Auto-escalation cascade", affectedId: "C-1042,C-1048,C-1049", scenario: "S2", result: "Success" })];
     return [];
   }, [failure]);
 
