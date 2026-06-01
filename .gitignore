@@ -1,0 +1,36 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.mypy_cache/
+*.egg-info/
+.venv/
+venv/
+env/
+
+# Django
+Backend/db.sqlite3
+Backend/db.sqlite3-journal
+*.log
+
+# Node / Frontend build
+Frontend/node_modules/
+Frontend/dist/
+node_modules/
+dist/
+
+# IDE / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+*.swp
+
+# Env secrets
+.env
+.env.local
+*.pem
+
+# Accidental junk
+;

@@ -99,4 +99,9 @@
   .panel-body { @apply p-5; }
   .kpi-label { @apply text-xs uppercase tracking-wide text-muted-foreground font-medium; }
   .kpi-value { @apply text-2xl font-semibold text-foreground mt-1; }
+  .sidebar-panel { @apply border-e; }
+}
+
+[dir="rtl"] .sidebar-panel {
+  @apply border-e-0 border-s;
 }

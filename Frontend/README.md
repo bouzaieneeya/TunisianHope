@@ -1,3 +1,12 @@
-# Welcome to your Lovable project
+# Tunisian Hope — Frontend
 
-TODO: Document your project here
+React + Vite UI for the **Tunisian Hope** youth wellbeing platform.
+
+Run from this folder:
+
+```powershell
+npm install
+npm run dev
+```
+
+Requires the Django backend on `http://127.0.0.1:8000` for live API data.

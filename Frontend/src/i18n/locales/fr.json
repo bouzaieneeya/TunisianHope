@@ -1,0 +1,137 @@
+{
+  "app": {
+    "name": "Tunisian Hope",
+    "tagline": "Soutien au bien-être des jeunes"
+  },
+  "sidebar": {
+    "collapse": "Réduire le menu",
+    "expand": "Agrandir le menu"
+  },
+  "nav": {
+    "overview": "Vue d'ensemble",
+    "dashboard": "Tableau de bord",
+    "youthSupport": "Soutien au bien-être des jeunes",
+    "mentalHealthCases": "Cas santé mentale",
+    "appointments": "Rendez-vous",
+    "alerts": "Alertes",
+    "youthProfiles": "Profils jeunes",
+    "riskMonitor": "Surveillance risque numérique",
+    "awarenessActions": "Actions de sensibilisation",
+    "platform": "Plateforme",
+    "reports": "Rapports",
+    "auditLog": "Journal d'audit",
+    "settings": "Paramètres"
+  },
+  "topbar": {
+    "searchPlaceholder": "Rechercher cas, profils, alertes...",
+    "notifications": "Notifications",
+    "notificationsEmpty": "Tout est à jour",
+    "notificationsNone": "Aucune alerte active pour le moment.",
+    "viewAllAlerts": "Voir toutes les alertes →"
+  },
+  "language": {
+    "label": "Langue",
+    "en": "English",
+    "fr": "Français",
+    "ar": "العربية"
+  },
+  "roles": {
+    "Operator": "Opérateur",
+    "Counselor": "Conseiller",
+    "Admin": "Administrateur"
+  },
+  "common": {
+    "view": "Voir →",
+    "save": "Enregistrer",
+    "close": "Fermer",
+    "backToCases": "Retour aux cas",
+    "backToProfiles": "Retour aux profils",
+    "all": "Tous",
+    "active": "Actives",
+    "history": "Historique",
+    "acknowledge": "Accuser réception",
+    "escalate": "Escalader",
+    "dismiss": "Ignorer",
+    "newCase": "Nouveau cas",
+    "newProfile": "Nouveau profil",
+    "noResults": "Aucun résultat ne correspond aux filtres.",
+    "notFound": "Introuvable.",
+    "disclaimer": "Aide à la décision uniquement — validation humaine requise.",
+    "domainFollowUp": "Suivi",
+    "domainDigital": "Numérique"
+  },
+  "dashboard": {
+    "intro": "Scénario unifié de bien-être des jeunes — suivi santé mentale et comportement numérique dans un même flux.",
+    "activeCases": "Cas santé mentale actifs",
+    "appointmentsWeek": "Rendez-vous cette semaine",
+    "referralsPending": "Orientations en attente",
+    "youthMonitored": "Profils jeunes suivis",
+    "highDigitalRisk": "Profils à risque numérique élevé",
+    "awarenessSent": "Actions de sensibilisation envoyées (semaine)",
+    "adherenceTitle": "Observance des rendez-vous — 12 dernières semaines",
+    "adherenceCaption": "Les semaines où présence < planifié déclenchent des rappels automatiques.",
+    "riskDistTitle": "Répartition des niveaux de risque numérique",
+    "riskDistCaption": "Niveau calculé à partir de 5 indicateurs comportementaux.",
+    "activeAlerts": "Alertes actives",
+    "upcomingAppointments": "Prochains rendez-vous"
+  },
+  "cases": {
+    "searchPlaceholder": "Rechercher ID cas ou initiales",
+    "allStatuses": "Tous les statuts",
+    "allRisk": "Tous les niveaux de risque",
+    "allCounselors": "Tous les conseillers",
+    "flagged": "Signalé",
+    "dataError": "Erreur de données"
+  },
+  "alerts": {
+    "thresholdConfig": "Configuration des seuils",
+    "missedBeforeReminder": "Séances manquées avant alerte rappel",
+    "missedBeforeReferral": "Séances manquées avant orientation",
+    "daysOverdue": "Jours de retard avant escalade",
+    "riskThreshold": "Seuil de score pour badge risque élevé",
+    "saveThresholds": "Enregistrer les seuils"
+  },
+  "settings": {
+    "account": "Compte",
+    "name": "Nom",
+    "username": "Identifiant",
+    "role": "Rôle",
+    "team": "Équipe",
+    "policies": "Politiques plateforme",
+    "policyAwareness": "Validation conseiller requise pour toute action de sensibilisation",
+    "policyAutoAssign": "Assignation auto du conseiller en cas de risque élevé",
+    "policyAnonymize": "Anonymiser les identifiants dans les exports",
+    "savePolicies": "Enregistrer les politiques",
+    "policiesSaved": "Politiques enregistrées"
+  },
+  "audit": {
+    "searchPlaceholder": "Rechercher action, utilisateur ou ID",
+    "allRoles": "Tous les rôles",
+    "allDomains": "Tous les domaines",
+    "allResults": "Tous les résultats",
+    "domain": "Domaine",
+    "result": "Résultat",
+    "blocked": "Bloqué",
+    "success": "Succès",
+    "timestamp": "Horodatage",
+    "user": "Utilisateur",
+    "action": "Action",
+    "affected": "Concerné",
+    "blockReason": "Raison du blocage",
+    "noEntries": "Aucune entrée d'audit ne correspond."
+  },
+  "reports": {
+    "title": "Soutien au bien-être — Rapports",
+    "subtitle": "Indicateurs combinés suivi santé mentale et comportement numérique (scénario opérationnel unique).",
+    "mentalHealth": "Suivi santé mentale",
+    "mentalHealthDesc": "Observance, orientations et résultats des cas.",
+    "digitalBehavior": "Soutien comportement numérique",
+    "digitalBehaviorDesc": "Tendances de risque, résultats de sensibilisation, répartition par école.",
+    "exportCsv": "Exporter CSV",
+    "exportPdf": "Exporter PDF"
+  },
+  "notFound": {
+    "title": "Page introuvable",
+    "back": "Retour au tableau de bord"
+  }
+}

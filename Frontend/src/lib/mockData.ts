@@ -1,4 +1,4 @@
-// Mock data store for Amal platform - all data is fictional/anonymized
+// Mock data store for Tunisian Hope platform - all data is fictional/anonymized
 export type Role = "Operator" | "Counselor" | "Admin";
 
 export interface User {
@@ -307,20 +307,20 @@ export interface AuditEntry {
   role: Role;
   action: string;
   affectedId: string;
-  scenario: "S2" | "S3";
+  domain: "Follow-up" | "Digital";
   result: "Success" | "Blocked";
   blockReason?: string;
 }
 
 export const auditLog: AuditEntry[] = [
-  { id: "L-1", timestamp: "2026-04-30 09:14", user: "operator_nour", role: "Operator", action: "Created case", affectedId: "C-1054", scenario: "S2", result: "Success" },
-  { id: "L-2", timestamp: "2026-04-30 09:22", user: "counselor_sara", role: "Counselor", action: "Added clinical note", affectedId: "C-1042", scenario: "S2", result: "Success" },
-  { id: "L-3", timestamp: "2026-04-30 10:01", user: "operator_nour", role: "Operator", action: "Trigger referral", affectedId: "C-1044", scenario: "S2", result: "Blocked", blockReason: "Operator role cannot trigger referrals" },
-  { id: "L-4", timestamp: "2026-04-30 10:33", user: "counselor_amine", role: "Counselor", action: "Sent awareness action", affectedId: "Y-3007", scenario: "S3", result: "Success" },
-  { id: "L-5", timestamp: "2026-04-30 11:02", user: "admin_karim", role: "Admin", action: "Updated thresholds", affectedId: "config/thresholds", scenario: "S2", result: "Success" },
-  { id: "L-6", timestamp: "2026-04-30 11:18", user: "operator_nour", role: "Operator", action: "Send awareness action", affectedId: "Y-3001", scenario: "S3", result: "Blocked", blockReason: "Only counselors can send awareness actions" },
-  { id: "L-7", timestamp: "2026-04-29 16:40", user: "counselor_sara", role: "Counselor", action: "Acknowledged alert", affectedId: "A-202", scenario: "S2", result: "Success" },
-  { id: "L-8", timestamp: "2026-04-29 14:12", user: "counselor_amine", role: "Counselor", action: "Escalated alert", affectedId: "A-206", scenario: "S2", result: "Success" },
+  { id: "L-1", timestamp: "2026-04-30 09:14", user: "operator_nour", role: "Operator", action: "Created case", affectedId: "C-1054", domain: "Follow-up", result: "Success" },
+  { id: "L-2", timestamp: "2026-04-30 09:22", user: "counselor_sara", role: "Counselor", action: "Added clinical note", affectedId: "C-1042", domain: "Follow-up", result: "Success" },
+  { id: "L-3", timestamp: "2026-04-30 10:01", user: "operator_nour", role: "Operator", action: "Trigger referral", affectedId: "C-1044", domain: "Follow-up", result: "Blocked", blockReason: "Operator role cannot trigger referrals" },
+  { id: "L-4", timestamp: "2026-04-30 10:33", user: "counselor_amine", role: "Counselor", action: "Sent awareness action", affectedId: "Y-3007", domain: "Digital", result: "Success" },
+  { id: "L-5", timestamp: "2026-04-30 11:02", user: "admin_karim", role: "Admin", action: "Updated thresholds", affectedId: "config/thresholds", domain: "Follow-up", result: "Success" },
+  { id: "L-6", timestamp: "2026-04-30 11:18", user: "operator_nour", role: "Operator", action: "Send awareness action", affectedId: "Y-3001", domain: "Digital", result: "Blocked", blockReason: "Only counselors can send awareness actions" },
+  { id: "L-7", timestamp: "2026-04-29 16:40", user: "counselor_sara", role: "Counselor", action: "Acknowledged alert", affectedId: "A-202", domain: "Follow-up", result: "Success" },
+  { id: "L-8", timestamp: "2026-04-29 14:12", user: "counselor_amine", role: "Counselor", action: "Escalated alert", affectedId: "A-206", domain: "Follow-up", result: "Success" },
 ];
 
 // Reports

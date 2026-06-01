@@ -1,12 +1,20 @@
 from pathlib import Path
 
 BASE_DIR = Path(__file__).resolve().parent.parent
+LOG_DIR = BASE_DIR / "logs"
+LOG_DIR.mkdir(parents=True, exist_ok=True)
 
 SECRET_KEY = 'django-insecure-tunisian-youth-platform-2026-change-in-production'
 
 DEBUG = True
 
 ALLOWED_HOSTS = ['*']
+
+# Frontend dev server origins allowed for CSRF-protected session requests.
+CSRF_TRUSTED_ORIGINS = [
+    "http://localhost:5173",
+    "http://127.0.0.1:5173",
+]
 
 INSTALLED_APPS = [
     'django.contrib.admin',
@@ -21,7 +29,6 @@ INSTALLED_APPS = [
     'workflows',
     'dashboard',
     'api',
-    'mcp_server',
     # Packages externes
     'rest_framework',
 ]
@@ -115,7 +122,7 @@ LOGGING = {
         },
         'file': {
             'class': 'logging.FileHandler',
-            'filename': BASE_DIR / 'logs/app.log',
+            'filename': LOG_DIR / 'app.log',
             'formatter': 'verbose',
         },
     },

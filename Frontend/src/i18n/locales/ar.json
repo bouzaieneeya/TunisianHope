@@ -1,0 +1,137 @@
+{
+  "app": {
+    "name": "أمل تونس",
+    "tagline": "دعم رفاهية الشباب"
+  },
+  "sidebar": {
+    "collapse": "طي القائمة الجانبية",
+    "expand": "توسيع القائمة الجانبية"
+  },
+  "nav": {
+    "overview": "نظرة عامة",
+    "dashboard": "لوحة التحكم",
+    "youthSupport": "دعم رفاهية الشباب",
+    "mentalHealthCases": "حالات الصحة النفسية",
+    "appointments": "المواعيد",
+    "alerts": "التنبيهات",
+    "youthProfiles": "ملفات الشباب",
+    "riskMonitor": "مراقبة المخاطر الرقمية",
+    "awarenessActions": "إجراءات التوعية",
+    "platform": "المنصة",
+    "reports": "التقارير",
+    "auditLog": "سجل التدقيق",
+    "settings": "الإعدادات"
+  },
+  "topbar": {
+    "searchPlaceholder": "البحث في الحالات والملفات والتنبيهات...",
+    "notifications": "الإشعارات",
+    "notificationsEmpty": "لا توجد تنبيهات جديدة",
+    "notificationsNone": "لا توجد تنبيهات نشطة حالياً.",
+    "viewAllAlerts": "عرض كل التنبيهات ←"
+  },
+  "language": {
+    "label": "اللغة",
+    "en": "English",
+    "fr": "Français",
+    "ar": "العربية"
+  },
+  "roles": {
+    "Operator": "مشغّل",
+    "Counselor": "مستشار",
+    "Admin": "مدير"
+  },
+  "common": {
+    "view": "عرض ←",
+    "save": "حفظ",
+    "close": "إغلاق",
+    "backToCases": "العودة إلى الحالات",
+    "backToProfiles": "العودة إلى الملفات",
+    "all": "الكل",
+    "active": "نشطة",
+    "history": "السجل",
+    "acknowledge": "إقرار",
+    "escalate": "تصعيد",
+    "dismiss": "تجاهل",
+    "newCase": "حالة جديدة",
+    "newProfile": "ملف جديد",
+    "noResults": "لا توجد نتائج تطابق الفلاتر.",
+    "notFound": "غير موجود.",
+    "disclaimer": "دعم للقرار فقط — يلزم التحقق البشري.",
+    "domainFollowUp": "متابعة",
+    "domainDigital": "رقمي"
+  },
+  "dashboard": {
+    "intro": "سيناريو موحّد لرفاهية الشباب — متابعة الصحة النفسية ودعم السلوك الرقمي في مسار واحد.",
+    "activeCases": "حالات الصحة النفسية النشطة",
+    "appointmentsWeek": "مواعيد هذا الأسبوع",
+    "referralsPending": "إحالات قيد الانتظار",
+    "youthMonitored": "ملفات شباب تحت المراقبة",
+    "highDigitalRisk": "ملفات مخاطر رقمية عالية",
+    "awarenessSent": "إجراءات توعية مرسلة (الأسبوع)",
+    "adherenceTitle": "التزام بالمواعيد — آخر 12 أسبوعًا",
+    "adherenceCaption": "الأسابيع التي يكون فيها الحضور أقل من المخطط تُفعّل تذكيرات تلقائية.",
+    "riskDistTitle": "توزيع مستويات المخاطر الرقمية",
+    "riskDistCaption": "المستوى محسوب من 5 مؤشرات سلوكية.",
+    "activeAlerts": "تنبيهات نشطة",
+    "upcomingAppointments": "المواعيد القادمة"
+  },
+  "cases": {
+    "searchPlaceholder": "البحث برقم الحالة أو الأحرف الأولى",
+    "allStatuses": "كل الحالات",
+    "allRisk": "كل مستويات المخاطر",
+    "allCounselors": "كل المستشارين",
+    "flagged": "مُعلّم",
+    "dataError": "خطأ في البيانات"
+  },
+  "alerts": {
+    "thresholdConfig": "إعداد العتبات",
+    "missedBeforeReminder": "جلسات فائتة قبل تنبيه التذكير",
+    "missedBeforeReferral": "جلسات فائتة قبل الإحالة",
+    "daysOverdue": "أيام التأخر قبل التصعيد",
+    "riskThreshold": "عتبة النقاط لمستوى مخاطر عالٍ",
+    "saveThresholds": "حفظ العتبات"
+  },
+  "settings": {
+    "account": "الحساب",
+    "name": "الاسم",
+    "username": "اسم المستخدم",
+    "role": "الدور",
+    "team": "الفريق",
+    "policies": "سياسات المنصة",
+    "policyAwareness": "اشتراط تحقق المستشار لجميع إجراءات التوعية",
+    "policyAutoAssign": "تعيين المستشار تلقائيًا عند كشف مخاطر عالية",
+    "policyAnonymize": "إخفاء هوية المعرفات في التصدير",
+    "savePolicies": "حفظ السياسات",
+    "policiesSaved": "تم حفظ السياسات"
+  },
+  "audit": {
+    "searchPlaceholder": "البحث في الإجراء أو المستخدم أو المعرف",
+    "allRoles": "كل الأدوار",
+    "allDomains": "كل المجالات",
+    "allResults": "كل النتائج",
+    "domain": "المجال",
+    "result": "النتيجة",
+    "blocked": "محظور",
+    "success": "نجاح",
+    "timestamp": "الوقت",
+    "user": "المستخدم",
+    "action": "الإجراء",
+    "affected": "المتأثر",
+    "blockReason": "سبب الحظر",
+    "noEntries": "لا توجد سجلات تطابق البحث."
+  },
+  "reports": {
+    "title": "دعم رفاهية الشباب — التقارير",
+    "subtitle": "مؤشرات مجمّعة للمتابعة النفسية والسلوك الرقمي (سيناريو تشغيلي واحد).",
+    "mentalHealth": "متابعة الصحة النفسية",
+    "mentalHealthDesc": "الالتزام والإحالات ونتائج الحالات.",
+    "digitalBehavior": "دعم السلوك الرقمي",
+    "digitalBehaviorDesc": "اتجاهات المخاطر ونتائج التوعية وتوزيع المدارس.",
+    "exportCsv": "تصدير CSV",
+    "exportPdf": "تصدير PDF"
+  },
+  "notFound": {
+    "title": "الصفحة غير موجودة",
+    "back": "العودة إلى لوحة التحكم"
+  }
+}

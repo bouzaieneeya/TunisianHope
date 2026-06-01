@@ -1,0 +1,137 @@
+{
+  "app": {
+    "name": "Tunisian Hope",
+    "tagline": "Early support. Lasting impact."
+  },
+  "sidebar": {
+    "collapse": "Collapse sidebar",
+    "expand": "Expand sidebar"
+  },
+  "nav": {
+    "overview": "Overview",
+    "dashboard": "Dashboard",
+    "youthSupport": "Youth Wellbeing Support",
+    "mentalHealthCases": "Mental Health Cases",
+    "appointments": "Appointments",
+    "alerts": "Alerts",
+    "youthProfiles": "Youth Profiles",
+    "riskMonitor": "Digital Risk Monitor",
+    "awarenessActions": "Awareness Actions",
+    "platform": "Platform",
+    "reports": "Reports",
+    "auditLog": "Audit Log",
+    "settings": "Settings"
+  },
+  "topbar": {
+    "searchPlaceholder": "Search cases, profiles, alerts...",
+    "notifications": "Notifications",
+    "notificationsEmpty": "You're all caught up",
+    "notificationsNone": "No active alerts right now.",
+    "viewAllAlerts": "View all alerts →"
+  },
+  "language": {
+    "label": "Language",
+    "en": "English",
+    "fr": "Français",
+    "ar": "العربية"
+  },
+  "roles": {
+    "Operator": "Operator",
+    "Counselor": "Counselor",
+    "Admin": "Admin"
+  },
+  "common": {
+    "view": "View →",
+    "save": "Save",
+    "close": "Close",
+    "backToCases": "Back to cases",
+    "backToProfiles": "Back to profiles",
+    "all": "All",
+    "active": "Active",
+    "history": "History",
+    "acknowledge": "Acknowledge",
+    "escalate": "Escalate",
+    "dismiss": "Dismiss",
+    "newCase": "New Case",
+    "newProfile": "New Profile",
+    "noResults": "No results match the current filters.",
+    "notFound": "Not found.",
+    "disclaimer": "Decision support only — human validation required.",
+    "domainFollowUp": "Follow-up",
+    "domainDigital": "Digital"
+  },
+  "dashboard": {
+    "intro": "Unified youth wellbeing scenario — mental health follow-up and digital behavior support in one workflow.",
+    "activeCases": "Active mental health cases",
+    "appointmentsWeek": "Appointments this week",
+    "referralsPending": "Referrals pending",
+    "youthMonitored": "Youth profiles monitored",
+    "highDigitalRisk": "High digital-risk profiles",
+    "awarenessSent": "Awareness actions sent (week)",
+    "adherenceTitle": "Appointment adherence — last 12 weeks",
+    "adherenceCaption": "Weeks where attended < scheduled trigger automatic reminders.",
+    "riskDistTitle": "Digital risk level distribution",
+    "riskDistCaption": "Risk level computed from 5 behavioral indicators.",
+    "activeAlerts": "Active alerts",
+    "upcomingAppointments": "Upcoming appointments"
+  },
+  "cases": {
+    "searchPlaceholder": "Search case ID or initials",
+    "allStatuses": "All statuses",
+    "allRisk": "All risk levels",
+    "allCounselors": "All counselors",
+    "flagged": "Flagged",
+    "dataError": "Data error"
+  },
+  "alerts": {
+    "thresholdConfig": "Threshold configuration",
+    "missedBeforeReminder": "Missed sessions before reminder alert",
+    "missedBeforeReferral": "Missed sessions before referral flag",
+    "daysOverdue": "Days overdue before escalation",
+    "riskThreshold": "Risk score threshold for high-risk badge",
+    "saveThresholds": "Save thresholds"
+  },
+  "settings": {
+    "account": "Account",
+    "name": "Name",
+    "username": "Username",
+    "role": "Role",
+    "team": "Team",
+    "policies": "Platform policies",
+    "policyAwareness": "Require counselor validation for all awareness actions",
+    "policyAutoAssign": "Auto-assign counselor on high-risk detection",
+    "policyAnonymize": "Anonymize identifiers in exports",
+    "savePolicies": "Save policies",
+    "policiesSaved": "Policies saved"
+  },
+  "audit": {
+    "searchPlaceholder": "Search action, user, or affected ID",
+    "allRoles": "All roles",
+    "allDomains": "All domains",
+    "allResults": "All results",
+    "domain": "Domain",
+    "result": "Result",
+    "blocked": "Blocked",
+    "success": "Success",
+    "timestamp": "Timestamp",
+    "user": "User",
+    "action": "Action",
+    "affected": "Affected",
+    "blockReason": "Block reason",
+    "noEntries": "No audit entries match."
+  },
+  "reports": {
+    "title": "Youth Wellbeing Support — Reports",
+    "subtitle": "Combined mental health follow-up and digital behavior indicators (single operational scenario).",
+    "mentalHealth": "Mental health follow-up",
+    "mentalHealthDesc": "Adherence, referrals, and case outcomes.",
+    "digitalBehavior": "Digital behavior support",
+    "digitalBehaviorDesc": "Risk trends, awareness outcomes, school distribution.",
+    "exportCsv": "Export CSV",
+    "exportPdf": "Export PDF"
+  },
+  "notFound": {
+    "title": "Page not found",
+    "back": "Return to dashboard"
+  }
+}
